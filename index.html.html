@@ -1,0 +1,472 @@
+<html>
+    <head>
+        <title>Netflix.com</title>
+        <style>
+           *{
+            margin:0%;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: none;
+           }
+
+           .header{
+                background-color:rgba(0, 0, 0, 0.425) ;
+                position:relative;
+                z-index:1;
+                width:1343px;
+                height:755px;
+           }
+
+           .header img{
+                width:1343px;
+                position:absolute;
+                z-index:2;
+           }
+
+           .navbar{
+            width:auto;
+           }
+
+
+           .navbar img{
+                width: 56px;
+                position:relative;
+                z-index: 3;
+                padding:30px;
+                padding-left: 20px;
+           }
+
+           .navbar button{
+            position:relative;
+            z-index:3;
+            margin-left:1100px;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: large;
+            font-weight: 400;
+            border-color:  rgb(216, 14, 14);
+            background-color: rgb(216, 14, 14);
+            margin:35px;
+            float:right;
+            border-width: 0px;
+
+           }
+
+           .header_main_text{
+            width:max-content;
+            position:relative;
+            font-size:larger;
+            z-index: 2;
+            margin-left:350px;
+            margin-right:400px;
+            margin-top:100px;
+            margin-bottom:400px;
+            color:antiquewhite;
+            font-size: x-large;
+            font-family: Arial, Helvetica, sans-serif;
+            align-content: center;
+           }
+
+           .email_started_box{
+            width:auto;
+           }
+
+           .email_started_box #email{
+            padding-right:190px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: large;
+            padding-left:5px;
+            background-color: rgba(0, 0, 0, 0.555);
+            color: rgb(255, 255, 255);
+            border-width: 1px;
+            border-radius: 5px;
+           }
+            .email_started_box button{
+                padding-top: 20px;
+                padding-bottom: 21px;
+                padding-right: 25px;
+                padding-left: 15px;
+                background-color: rgb(216, 14, 14);
+                color: rgb(255, 255, 255);
+                border-width: 0px;
+                border-radius: 5px;
+                word-spacing: 3px;
+                letter-spacing: 2px;
+                font-size: 20px;
+
+            }
+
+            .main_body{
+                padding-top: 10px;
+                background-color: black;
+                padding-left: 20px;
+                overflow:hidden;
+
+
+
+            }
+
+            .main_body h2{
+                color:rgba(255, 255, 255, 0.849);
+                padding-bottom:30px ;
+                margin-top: 20px;
+
+            }
+
+            .main_body select{
+                background-color:rgba(0, 0, 0, 0.171);
+                color: rgba(255, 255, 255, 0.705);
+                padding-top:10px;
+                padding-bottom:10px;
+                margin-bottom: 20px;
+                border-radius:5px;
+                margin-right:15px;
+                font-size: 17px;
+                 }
+
+            
+          .card1 img{
+            border-radius: 10px;
+            margin-left:30px;
+            margin-right:25px;
+            margin-bottom:10px;
+            float: left;
+            width:190px;
+            height:270px;
+
+          }
+          .card2 img{
+            border-radius: 10px;
+            margin-left:30px;
+            margin-right:25px;
+            margin-bottom:10px;
+            float: left;
+            width:190px;
+            height:270px;
+
+          }
+
+          .card3 img{
+            border-radius: 10px;
+            margin-left:30px;
+            margin-right:25px;
+            margin-bottom:10px;
+            float: left;
+            width:190px;
+            height:270px;
+
+          }
+
+          .card4 img{
+            border-radius: 10px;
+            margin-left:30px;
+            margin-right:25px;
+            margin-bottom:10px;
+            float: left;
+            width:190px;
+            height:270px;
+
+          }
+
+          .card5 img{
+            border-radius: 10px;
+            margin-left:30px;
+            margin-right:25px;
+            margin-bottom:10px;
+            float: left;
+            width:190px;
+            height:270px;
+
+          }
+        
+          .card1 p{
+            width:fit-content;
+            height:20px;
+            color:white;
+            background-color:rgb(216, 14, 14);
+            position:absolute;
+            margin-top: 243px;
+            margin-left: 65px;
+            border-radius: 3px;
+            padding:4px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 15px;
+          }
+        
+          
+         .box p{
+            color:white;
+            
+         }
+         .reasons{
+            margin-top:350px ;
+            margin-left:17px;
+            padding-left: 20px;
+
+         }
+         .box{
+            border-radius:15px;
+            border-width:2px;
+            background-color: rgb(34, 34, 100);
+            width: 400px;
+            height:175px;
+            padding:13px;
+            margin:7px;
+            float:left;
+            padding-bottom:100px;
+            padding-right:50px;
+            padding-left:19px;
+            margin-right:7px;
+         }
+          
+         .box h2{
+            font-size: 17px;
+        
+         }
+
+         .FAQ_section{
+            background-color:black;
+            color: white;
+            padding-top: 20px;
+            padding-left: 85px;
+         }
+             
+        #bar{
+            display: block;
+            margin: 10px;
+            background-color: rgba(0, 0, 0, 0.418);
+            box-shadow: none;
+            padding:20px;
+            font-size: 28px;
+            padding-right: 570px;
+            width:max-content;
+         }
+    
+            
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <img src="C:\Users\KAYODE DAVID\Desktop\Netflix website\DE-en-20240827-TRIFECTA-perspective_WEB_5f985fdb-13c7-45f8-8ef2-a5287f6adc87_medium.jpg">
+                <div class="navbar">
+                    <img src="C:\Users\KAYODE DAVID\Desktop\Netflix website\nficon2016.png">
+                    <button>Sign in</button>
+                </div>
+                <div class="header_main_text">
+                    <p style="font-size: 45px; font-weight: 800; text-align: center;word-spacing:6px;letter-spacing:6px">Unlimited movies, TV <br>shows, and more</p>
+                    <p style="font-size: 16px; font-weight: 200; text-align: center; word-spacing: 2px; letter-spacing: 2px;font-weight: 200;">Starts at #2200. Cancel anytime</p>
+                    <br>
+                    <p style="font-size: 14px; font-weight: 200; text-align: center;word-spacing: 2px; letter-spacing: 2px ; font-weight: 200;"> Ready to watch? Enter your email to create or restart your <br><br>membership</p>
+                       <br>
+                        <div class="email_started_box">
+                            <input type="email" placeholder="Email address" id="email">
+                            <button>Get Started  ></button>
+                        </div>
+                </div>
+        </div>
+
+
+
+<div class="main_body">
+            <h2>Trending Now</h2>
+            <select name="" id="" >
+                <option>Nigeria</option>
+                <option>Ghana</option>
+                <option>Togo</option>
+                <option>Sierra Leone</option>
+            </select>
+
+            <select name="" id="" style="padding-right: -10px;"> 
+                <option>Movies</option>
+                <option>Motivations</option>
+                <option>Kids movies</option>
+                <option>Animations</option>
+            </select>
+        
+        
+        
+        <div class="cards">
+            <div class="card1" style =>
+                <img src="C:\Users\KAYODE DAVID\Desktop\Netflix website\AAAABavaiKEy9dHrhQ-gmEo4D03h1PzWnA187DBI8FGPz5T0groFW3YikT-xWgUlUZId8gIKIk9q0eqroLa17bcNolA1tBee9TdgCzY.webp">
+                <p>Recently added</p>
+            </div>
+
+            <div class="card2"style="">
+                <img src="C:\Users\KAYODE DAVID\Desktop\Netflix website\AAAABdBEQ50Pg0l1Fsi9DnkJCKURwKg-tk1UxCUDcLic9CJQ1H9xs0c0YoGTy9h0B6gH1hs_Emue5eaZZbAYjLV9QpDr35fEpXOBkAs.webp">
+                <p style="
+                width:fit-content;
+                height:20px;
+                color:white;
+                background-color:rgb(216, 14, 14);
+                position:absolute;
+                margin-top: 242px;
+                margin-left: 315px;
+                border-radius: 3px;
+                padding:4px;
+                padding-left: 10px;
+                padding-right: 10px;
+                font-size: 15px;">Recently added</p>
+             <img src="C:\Users\KAYODE DAVID\Desktop\Netflix website\nficon2016.png" style="position:absolute; width:23px; height:23px; margin-top:7px; margin-right: 105px;">
+
+
+            </div>
+
+            <div class="card3" >
+                <img src="C:\Users\KAYODE DAVID\Desktop\Netflix website\AAAABfSeNraHExt1hLpYua4oK8PTPRoabM1wRBwwzX4b5nprQ-mPB-zoAz0msLgFxxU60ta8NY-GLaoRCVR23Zm9qQy367YeYKvOFMqwUnx5mS0taxZ2Qcj1Wd8X_sF4Z0P4qgz5Nb95SxvOpUlBgVI2d8PmbUGhi9HHGxI.webp">
+                <p style="
+                    width:fit-content;
+                    height:20px;
+                    color:white;
+                    background-color:rgb(216, 14, 14);
+                    position:absolute;
+                    margin-top: 242px;
+                    margin-left: 550px;
+                    border-radius: 3px;
+                    padding:4px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    font-size: 15px;">Recently added</p>
+                    <img src="C:\Users\KAYODE DAVID\Desktop\Netflix website\nficon2016.png" style="position:absolute; width:23px; height:23px; margin-top:7px;">
+
+            </div>
+
+            <div class="card4" >
+                <img src="C:\Users\KAYODE DAVID\Desktop\Netflix website\AAAABTNw82c1YtsIN9ZhEXavnKbasARKY2CA-s_e5R86_K8VStQanfF1M0qUW6KEgw1weRQQvIiQcx6Qvpb3HQ6CqS9mN99iEJxQO80.webp" style="position:relative;">
+                <p style="
+                width:fit-content;
+                height:20px;
+                color:white;
+                background-color:rgb(216, 14, 14);
+                position:absolute;
+                margin-top: 242px;
+                margin-left: 800px;
+                border-radius: 3px;
+                padding:4px;
+                padding-left: 10px;
+                padding-right: 10px;
+                font-size: 15px;">Recently added</p>
+                <img src="C:\Users\KAYODE DAVID\Desktop\Netflix website\nficon2016.png" style="position:absolute; width:23px; height:23px; margin-top:7px; margin-right:300px;">
+
+            </div>
+
+            <div class="card5" >
+                <img src="C:\Users\KAYODE DAVID\Desktop\Netflix website\AAAABdBEQ50Pg0l1Fsi9DnkJCKURwKg-tk1UxCUDcLic9CJQ1H9xs0c0YoGTy9h0B6gH1hs_Emue5eaZZbAYjLV9QpDr35fEpXOBkAs.webp">
+                <p style="
+                width:fit-content;
+                height:20px;
+                color:white;
+                background-color:rgb(216, 14, 14);
+                position:absolute;
+                margin-top: 242px;
+                margin-left: 1040px;
+                border-radius: 3px;
+                padding:4px;
+                padding-left: 10px;
+                padding-right: 10px;
+                font-size: 15px;">Recently added</p>
+            </div>
+
+           
+        </div>   
+            <div class="reasons">
+                <h2>More Reasons to Join</h2>
+                <div class="box" style ="margin-left: 125px;">
+                    <h2>Enjoy on your TV</h2>
+                    <p>Watch on Smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TVs, Blu-ray players and <br> lots more</p>
+                </div>
+
+
+                <div class="box">
+                    <h2>Download your shows to watch offline</h2>
+                    <p>Save your favourites easily and always have<br> something to watch</p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <div class="box" style ="margin-left: 125px;">
+                    <h2>Watch everywhere</h2>
+                    <p >Stream unlimited movies and TV shows on your<br> phone, tablet, laptop and TV </p>
+                </div>
+
+
+                <div class="box">
+                    <h2>Create profiles for kids</h2>
+                    <p>Send kids on adventures with their favourite<br>characters in a space made just for them - free<br> with your membership</p>
+                </div>
+            </div>
+        
+</div>
+        
+
+        <div class="FAQ_section">
+            <h2>Frequently Asked Questions</h2>
+            <input type="" id="bar" placeholder="What is Netflix?">
+            <input type="" id="bar" placeholder="How much does Netflix cost?">
+            <input type="" id="bar" placeholder="Where can I watch?">
+            <input type="" id="bar" placeholder="How do I cancel?">
+            <input type="" id="bar" placeholder="What can I watch on Netflix?">
+            <input type="" id="bar" placeholder="Is Netflix good for kids?">
+        </div>
+
+        <div class="FAQ_section_footer">
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="email_started_box">
+                    <input type="email" placeholder="Email address">
+                    <button>Get Started ></button>
+                </div>
+        </div>
+
+        <div class="footer">
+            <a href="#0">Questions? Contact us</a>
+            <br>
+            <br>
+
+            <div>
+                <a href="#0">FAQ</a>
+                <a href="#0">Media Center</a>
+                <a href="#0">Ways to Watch</a>
+                <a href="">Cookie Preferences</a>
+                <a href="">Speed Test</a>
+            </div>
+
+            <div>
+                <a href="">Help Center</a>
+                <a href="">Investor Relations</a>
+                <a href="">Terms of Use</a>
+                <a href="">Corporate Information</a>
+                <a href="">Legal Notices</a>
+            </div>
+
+            <div>
+                <a href="">Accounts</a>
+                <a href="">Jobs</a>
+                <a href="">Privacy</a>
+                <a href="">Contact Us</a>
+                <a href="">Only on Netflix</a>
+            </div>
+        </div>
+
+        <select>
+            <option>English</option>
+            <option>Swahili</option>
+            <option>Espanol</option>
+            <option>Yoruba</option>
+        </select>
+
+        <footer>Netflix Nigeria</footer>
+    </body>
+</html>
