@@ -101,10 +101,7 @@
                 background-color: black;
                 padding-left: 20px;
                 overflow:hidden;
-
-
-
-            }
+ }
 
             .main_body h2{
                 color:rgba(255, 255, 255, 0.849);
@@ -122,6 +119,7 @@
                 border-radius:5px;
                 margin-right:15px;
                 font-size: 17px;
+
                  }
 
             
@@ -228,8 +226,13 @@
          .FAQ_section{
             background-color:black;
             color: white;
-            padding-top: 20px;
-            padding-left: 85px;
+            padding-top: 50px;
+            padding-left: 180px;
+            padding-bottom:25px ;
+
+         }
+         .h2{
+            margin-left:20px;
          }
              
         #bar{
@@ -241,9 +244,81 @@
             font-size: 28px;
             padding-right: 570px;
             width:max-content;
+            
          }
     
+          .FAQ_section_footer{
+            background-color: black;
+            color:white;
+            padding-top:40px;
+            text-align: center;
+          }  
+          .email_started_box #email{
+          padding-right:190px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: large;
+            padding-left:5px;
+            background-color: rgba(0, 0, 0, 0.555);
+            color: rgb(255, 255, 255);
+            border-width: 1px;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            margin-right:20px;
+        }
+
+        .footer{
+            background-color: black;
+            color:white;
+            padding-bottom:30px;
+            padding-left: 40px;
+            overflow: hidden;
             
+
+        }
+        #link1{
+            padding-top:40px;
+            color:white;
+            margin-left:150px;
+        }
+        #link{
+            color:white;
+            display: block;
+            background-color: black;
+            margin: 10px;
+        }
+
+        .links{
+        padding-top: 20px;
+        height:fit-content;
+        width:fit-content;
+        float:left;
+        padding-bottom:40px;
+        padding-left: 40px;
+        margin-left:110px;
+        
+        }
+
+        .final_footer{
+            background-color: black;
+            
+
+        }
+        .footer_select{
+            background-color: rgba(0, 0, 0, 0.452);
+            padding:5px;
+            border-radius: 4px;
+            margin-left:185px;
+            color:white;
+            margin-bottom:20px;
+        }
+        footer{
+            color:white;
+            padding-top: 9px;
+            padding-bottom: 50px;
+            margin-left:185px;
+        }
         </style>
     </head>
     <body>
@@ -277,7 +352,7 @@
                 <option>Sierra Leone</option>
             </select>
 
-            <select name="" id="" style="padding-right: -10px;"> 
+            <select name="" id="" > 
                 <option>Movies</option>
                 <option>Motivations</option>
                 <option>Kids movies</option>
@@ -425,48 +500,49 @@
         <div class="FAQ_section_footer">
             <p>Ready to watch? Enter your email to create or restart your membership.</p>
                 <div class="email_started_box">
-                    <input type="email" placeholder="Email address">
+                    <input type="email" id="email" placeholder="Email address">
                     <button>Get Started ></button>
                 </div>
         </div>
 
         <div class="footer">
-            <a href="#0">Questions? Contact us</a>
+            <a href="#0" id="link1">Questions? Contact us</a>
             <br>
             <br>
 
-            <div>
-                <a href="#0">FAQ</a>
-                <a href="#0">Media Center</a>
-                <a href="#0">Ways to Watch</a>
-                <a href="">Cookie Preferences</a>
-                <a href="">Speed Test</a>
+            <div class="links">
+                <a href="#0" id="link">FAQ</a>
+                <a href="#0" id="link">Media Center</a>
+                <a href="#0" id="link">Ways to Watch</a>
+                <a href="" id="link">Cookie Preferences</a>
+                <a href="" id="link">Speed Test</a>
+            </div>
+            <div class="links">
+                <a href="" id="link">Help Center</a>
+                <a href="" id="link">Investor Relations</a>
+                <a href="" id="link">Terms of Use</a>
+                <a href="" id="link">Corporate Information</a>
+                <a href="" id="link">Legal Notices</a>
             </div>
 
-            <div>
-                <a href="">Help Center</a>
-                <a href="">Investor Relations</a>
-                <a href="">Terms of Use</a>
-                <a href="">Corporate Information</a>
-                <a href="">Legal Notices</a>
+            <div class="links">
+                <a href="" id="link">Accounts</a>
+                <a href="" id="link">Jobs</a>
+                <a href="" id="link">Privacy</a>
+                <a href="" id="link">Contact Us</a>
+                <a href="" id="link">Only on Netflix</a>
             </div>
 
-            <div>
-                <a href="">Accounts</a>
-                <a href="">Jobs</a>
-                <a href="">Privacy</a>
-                <a href="">Contact Us</a>
-                <a href="">Only on Netflix</a>
-            </div>
         </div>
+      <div class="final_footer">
+            <select class="footer_select">
+                <option>English</option>
+                <option>Swahili</option>
+                <option>Espanol</option>
+                <option>Yoruba</option>
+            </select>
 
-        <select>
-            <option>English</option>
-            <option>Swahili</option>
-            <option>Espanol</option>
-            <option>Yoruba</option>
-        </select>
-
-        <footer>Netflix Nigeria</footer>
-    </body>
+            <footer>Netflix Nigeria</footer>
+        </div>
+  </body>
 </html>
